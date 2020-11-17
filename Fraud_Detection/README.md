@@ -3,6 +3,13 @@ This project utilizes data of credit card transactions to detect fraud transacti
 
 ### Descriptions of files:
 
-- Original datafiles provided: fraud_train.csv and fraud_test.csv
-  * The initial way of splitting train and test was by arbitary transaction time (before 2019/06/21 and after). We think this way of splitting is not beneficial for contructing features related to personal purchase history, so we rather combined file and conducted re-sampling. More details can be viewed in data_processing notebook. 
+- Original data file: sample.csv
+  - The file contains full purchase history of 50 selected cards. Details of creating the sample can be referred in first part of Data_Processing notebook.
+- Processed data file: sample_done_new.csv
+  - This is the data file ready to enter models directly for training. The file is the output of Data_Processing notebook. 
+
 - Re-sampling and feature engineering: Data_Processing_YW.ipynb
+  - The notebook contains functions of feature engineering, especially with making use of time-series. 
+  
+- Model and evaluation: Model_Result_YW.ipynb
+  - Models and corresponding validation scores. Contains an up-sampling of minority class in the beginning.
