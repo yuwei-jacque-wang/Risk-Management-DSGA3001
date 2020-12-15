@@ -15,4 +15,4 @@ This project utilizes data of credit card transactions to detect fraud transacti
 - Model and evaluation: *Model_Result_YW.ipynb*
   - Models and corresponding validation scores. Contains an up-sampling of minority class in the beginning.
   
-### The project works as a good candidate for DS project mining interviews. Check Interview Project Mining PDF 
+#### *The project works as a good candidate for DS project mining interviews. Check Interview Project Mining PDF 
