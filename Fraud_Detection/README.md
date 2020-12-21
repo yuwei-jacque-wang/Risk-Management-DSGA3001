@@ -1,5 +1,5 @@
 ## Fraud Detection
-This project utilizes data of credit card transactions to detect fraud transactions. The highlights of this simple user case is feature engineering part which provides insights of dealing with time series data.
+This project utilizes data of credit card transactions to detect fraud transactions. The highlights of this simple user case is **feature engineering part which provides insights of dealing with time series data.**
 
 ### Descriptions of files:
 
